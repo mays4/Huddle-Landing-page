@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url('./images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+
+  /* width: 1440px; */
+}
+
+img{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  display: block;
+ 
+}
+.logo{
+  /* margin-top: 3rem;
+  margin-left: 3rem; */
+}
+.container{
+  display: flex;
+
+
+}
+.card{
+  margin-right: 5rem;
+  
+}
+.par{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+ 
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  width: 24rem;
+  line-height: 3rem;
+  font-size: 32px;
+  padding-bottom: 1rem;
+}
+.discription{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: rgb(228, 225, 225);
+  width:23rem;
+  line-height:1.25rem;
+}
+button{
+  width:150px;
+  height:50px;
+  align-self: flex-start;
+  margin-top: 20px;
+  border: 0px solid transparent;
+  border-radius: 40px;
+   background-color: white; 
+  color:hsl(257, 40%, 49%);
+  box-shadow: 8px 8px 2px 1px rgba(45, 40, 44, 0.1);
+}
+button:hover{
+  background-color:  hsl(300, 69%, 71%);
+}
+footer{
+
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.social{
+  display: flex;
+  margin-left:700px;
+  
+}
+span{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+span:hover{
+  background-color:  hsl(300, 69%, 71%);
+}
+.face{
+  color:white;
+  font-size: 24px;
+  border: 1px solid white;
+  
+}
+ion-icon {
+  font-size: 24px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding:10px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media only screen and (max-width: 375px){
+    body{
+      align-items: center;
+    }
+  img{
+    /* margin-top: 1rem; */
+    margin:1rem 0.5rem;
+    width: 300px;
+
+  }
+  .logo{
+    margin: 2rem;
+    width: 100px;
+  }
+
+     
+  .container{
+    flex-direction: column;
+   width: 300px;
+  
+  
+  
+  }
+  .par{
+     align-items: center; 
+     margin: 3rem;
+  }
+  .title{
+    font-size: 20px;
+    width: 14rem;
+    line-height: 2rem;
+text-align: center;
+  
+  
+ 
+  }
+  .discription{
+    
+    font-weight: 400;
+    width: 14rem;
+    text-align:center;
+    
+
+  }
+  button{
+    align-self: center;
+    width:200px;
+    height:40px;
+  }
+  
+  footer{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+  }
+  .social{
+    padding: 2rem;
+    margin: 0;
+  }
+}
