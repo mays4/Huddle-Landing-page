@@ -93,20 +93,13 @@ span{
 span:hover{
   background-color:  hsl(300, 69%, 71%);
 }
-.face{
+.icon{
   color:white;
   font-size: 24px;
   border: 1px solid white;
   
 }
-/* ion-icon {
-  font-size: 24px;
-  /* color: white;
-  border: 1px solid white; */
-  /* border-radius: 50%;
-  margin-right: 15px;
-  padding:10px; */
-/* } */ */
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -115,7 +108,7 @@ span:hover{
       align-items: center;
     }
   img{
-    /* margin-top: 1rem; */
+    
     margin:1rem 0.5rem;
     width: 300px;
 
