@@ -3,7 +3,7 @@
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ## DEMO
-[demo](https://mays4.github.io/Huddle-Landing-page/)
+[demo](https://mays4.github.io/Huddle-Landing-page/j)
 
 
 ### Built with
